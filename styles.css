@@ -1,0 +1,25 @@
+body {
+    background-color: #3E5902;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+    color: #F2A7D0;
+    text-align: center;
+    padding: 8px;
+}
+
+section {
+    background-color: #F2E96D;
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    box-shadow: 10px 10px 1px #733426;
+}
+
+img {
+    margin-top: 5px;
+    width: 300px;
+}
+
+p {
+    margin-top: -20px;
+}
