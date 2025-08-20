@@ -1,10 +1,11 @@
 const secao = document.getElementById('secao');
 const imagem = document.getElementById('imagem');
 const msg = document.getElementById('msg');
+msg.style.color = "#3E5902";
 
 
 function carregar() {
-    secao.addEventListener("click", clicar); 
+    secao.addEventListener("click", clicar);
     secao.addEventListener("mouseenter", entrar);
     secao.addEventListener("mouseleave", sair);
 }
@@ -13,7 +14,8 @@ function clicar() {
     imagem.src = "./imgs/clicado.png";
     secao.style.background = "#733426";
     msg.innerHTML = "Obrigado, <strong>mamão</strong>";
-    secao.style.boxShadow = "10px 10px 1px #F2E96D";
+    secao.style.boxShadow = "-13px 18px 1px #F2E96D";
+    msg.style.color = "#F2A7D0";
 }
 
 function entrar() {
@@ -23,7 +25,8 @@ function entrar() {
 
 function sair() {
     secao.style.background = "#F2E96D";
-    imagem.src= "./imgs/semClicar.png";
+    imagem.src = "./imgs/semClicar.png";
     msg.innerHTML = "<b>Volta aqui!!!!!</b>";
-    secao.style.boxShadow = "10px 10px 1px #733426";
+    secao.style.boxShadow = "-13px 18px 1px #733426";
+    msg.style.color = "#3E5902";
 }

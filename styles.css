@@ -12,7 +12,7 @@ section {
     width: 400px;
     height: 400px;
     margin: auto;
-    box-shadow: 10px 10px 1px #733426;
+    box-shadow: -13px 18px 1px #733426;
 }
 
 img {
@@ -22,4 +22,5 @@ img {
 
 p {
     margin-top: -20px;
+    color: #3E5902;
 }
